@@ -1,4 +1,4 @@
-# ⚡ Yet Another Store for Snap
+# 🦜 Yet Another Store for Snap
 
 > A modern, premium GUI wrapper for the **Snapcraft** (`snap`) package manager.
 
