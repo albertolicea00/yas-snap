@@ -11,7 +11,7 @@ The design is built around a modern, premium Dark Theme featuring a deep store b
 - **Store Base Color (Dark Gray)**:
   - Hex: `#1E1E2E`
   - HSL: `hsl(240, 21%, 15%)`
-- **Accent Color (Purple)**:
+- **Accent Color (Rust)**:
   - Hex: `#822007`
   - HSL: `hsl(12, 91%, 27%)`
 - **Subtle Highlight**:
@@ -24,7 +24,7 @@ The design is built around a modern, premium Dark Theme featuring a deep store b
 ## Visual Assets & Logo Concept
 
 - **Base Structure**: Dark gray store icon outline or 3D block representing the storefront.
-- **Accent Elements**: Highlights, borders, or light beams in **Purple**.
+- **Accent Elements**: Highlights, borders, or light beams in **Rust**.
 - **Inside the Store**: Stacked package cubes representing the packages managed by Snapcraft.
 - **App Tag**: SNAP
 
