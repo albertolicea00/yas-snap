@@ -2,9 +2,9 @@
 
 ## What
 Native GUI wrapper for **Snapcraft** (`snap`). Part of YAS suite.
-Status: **docs-only — no code yet**.
+Status: **scaffolded & unit-tested** — vendored core + adapter + QML shell compile, 3/3 QtTest suites pass (verified cross-compiling on macOS). Pending: build + QA on the real target platform.
 
-## Stack (planned)
+## Stack
 - C++20 + Qt 6.7+ (Qt Quick / QML), CMake ≥ 3.24, GCC/Clang
 - Native windowing via Qt QPA plugins: **wayland** with **xcb** (X11) fallback.
 - CLI execution: `QProcess` wrapping `snap`. Never bundle it (snapd required).
@@ -21,7 +21,7 @@ Ubuntu primary; any distro with snapd. x64 + arm64.
 - `snap refresh` auto-runs in background system-wide; UI should show pending/held refreshes, not assume it controls all updates.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#1E1E2E`, accent **Rust `#822007`**, highlight `#8220071A`, text `#F8F8F2` / `#A9B1D6`.
+- Dark theme. Base `#212826`, accent **Rust `#822007`**, highlight `#8220071A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **SNAP**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 - DESIGN.md previously labeled the accent "Purple"; hex kept, label corrected to Rust.
 
