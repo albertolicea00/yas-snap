@@ -21,6 +21,7 @@ Ubuntu primary; any distro with snapd. x64 + arm64.
 - `snap refresh` auto-runs in background system-wide; UI should show pending/held refreshes, not assume it controls all updates.
 
 ## Design (see DESIGN.md)
+- UI shell: **Teams-style** — icon rail | list panel | detail pane (no in-app title header). Light/dark mode persisted via `YasManager` context property (`src/core/thememanager.*`, QSettings), toggle at rail bottom. Both palettes live in `qml/core/Theme.qml` (`Theme.dark`).
 - Dark theme. Base `#222629`, accent **Rust `#822007`**, highlight `#8220071A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **SNAP**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 - DESIGN.md previously labeled the accent "Purple"; hex kept, label corrected to Rust.
